@@ -31,11 +31,6 @@
     [Parameter]
     public string Style { get; set; }
 
-    [Parameter]
-    public Action InvokeStateHasChanged { get; set; }
-
-    private string GenerateThumbnail(int i) => "images/thumbnail" +(i % 2 == 0? "1" : "2") + ".png";
-
     protected override void OnInitialized()
     {
         WorkSurfaceState.Solutions = new List<Solution>(DataRepository.GetSolutions());
