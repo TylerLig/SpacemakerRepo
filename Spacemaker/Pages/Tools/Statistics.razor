@@ -1,0 +1,29 @@
+﻿@inject WorkSurfaceState WorkSurfaceState
+<div class="@(Style + " default-background")" style="">
+    <Card>
+        <Statistic Title="Total Area" Value="@TotalArea" Suffix="m²" Precision="2" />
+    </Card>
+</div>
+
+@code{
+
+    [Parameter]
+    public string Style { get; set; }
+
+    private double TotalArea => CalculateTotalArea();
+
+    protected override void OnInitialized()
+    {
+        WorkSurfaceState.PolygonsStateChangedDelegate += StateHasChanged;
+    }
+
+    private double CalculateTotalArea()
+    {
+        double totalArea = 0;
+        foreach (JSPolygon polygon in WorkSurfaceState.SelectedPolygons)
+        {
+            totalArea += polygon.CalculateArea();
+        }
+        return totalArea;
+    }
+}

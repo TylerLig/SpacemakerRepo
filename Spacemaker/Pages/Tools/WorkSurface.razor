@@ -1,0 +1,15 @@
+﻿<div class="@Style" style="height: 100%">
+    <LeafletMap Map="PositionMap" TileLayer="OpenStreetMapsTileLayer">
+        @if (SelectedPolygons.Count == 2)
+        {
+            <div class="leafletMap-controls">
+                <Button Size="large" OnClick="UnionOperation">
+                    UNION
+                </Button>
+                <Button Size="large" OnClick="IntersectOperation">
+                    INTERSECT
+                </Button>
+            </div>
+        }
+    </LeafletMap>
+</div>
