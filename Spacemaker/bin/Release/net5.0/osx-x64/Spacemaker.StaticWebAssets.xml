@@ -1,4 +1,0 @@
-﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="/" Path="C:\Users\Tyler\source\repos\TylerLig\SpacemakerPublic\Spacemaker\obj\Release\net5.0\osx-x64\scopedcss\bundle\" />
-  <ContentRoot BasePath="_content/AntDesign" Path="C:\Users\Tyler\.nuget\packages\antdesign\0.9.2\build\..\staticwebassets\" />
-</StaticWebAssets>
