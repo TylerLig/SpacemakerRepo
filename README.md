@@ -1,6 +1,8 @@
 ## Running the project
 
-You will need the .NET 7 [dotnet runtime](https://dotnet.microsoft.com/download) to run the applciation server.
+A project to load, view, and modify polygons defined by latlong coordinates in [wwwroot/data](wwwroot/data).
+
+You will need the .NET 7 [dotnet runtime](https://dotnet.microsoft.com/download) to run the application server.
 
 If you have the runtime, within the [bin/Release/net7.0/](bin/Release/net7.0/) directory you can run Spacemaker.exe directly or from the command line run:
 
@@ -13,7 +15,5 @@ Click on a solution on the left side to load the shapes associated with that sol
 
 Changes to the proposed solutions are not persistent, you can just refresh the page to reset them.
 
-
-
-https://github.com/TylerLig/SpacemakerRepo/assets/29814578/d77b4c7a-8803-40d9-bad5-305ce45dfec0
+https://github.com/TylerLig/SpacemakerRepo/assets/29814578/c5ac4a03-5c77-42ff-9aea-6dbae29682dc
 
