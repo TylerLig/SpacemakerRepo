@@ -12,3 +12,8 @@ Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
 Click on a solution on the left side to load the shapes associated with that solution, clicking on a shape will select or deselect it, shapes can be modified using union or intersect after two shapes have been selected.
 
 Changes to the proposed solutions are not persistent, you can just refresh the page to reset them.
+
+
+
+https://github.com/TylerLig/SpacemakerRepo/assets/29814578/d77b4c7a-8803-40d9-bad5-305ce45dfec0
+
